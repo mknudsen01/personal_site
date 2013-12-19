@@ -28,6 +28,16 @@ h2 {
   text-transform: uppercase;
 }
 
+#logo img {
+  width: 100%;
+  border: 8px solid #FAF3BC;
+}
+
+.portrait img {
+  width: 100%;
+  border: 8px solid #FAF3BC; 
+}
+
 .btn:hover {
   background-color: #4CC4A7;
 }
@@ -51,13 +61,15 @@ ul.nav li a {
   margin: 50px 0 75px 0;
 }
 
-#new-cupcakes img {
+#loves img {
   border: 8px solid #FAF3BC;
   margin: 0 0 20px 0;
+  width: 100%;
 }
 
-#featured-cupcake img {
+#quirk img {
   border: 8px solid #FAF3BC;
+  width: 100%;
 }
 
 #copyright {
