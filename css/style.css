@@ -1,11 +1,11 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: #FAF3BC;
-  background: #420600 url('img/bg-texture.jpg') repeat;
+  background: #121664 url('img/bg-texture.jpg') repeat;
 }
 
 a {
-  color: #4FB69F;
+  color: #C7A238;
   text-decoration: none;
 }
 
@@ -16,12 +16,13 @@ h1 {
 
 h2 {
   font-size: 1.500em;
-  color: #B4C34F;
+  color: #906C06;
 }
 
 .btn {
-  color: #FAF3BC;
-  background: #4FB69F url('img/texture.png') no-repeat right top;
+  color: #000;
+  font-weight: bold;
+  background: #C7A238 url('img/texture.png') no-repeat right top;
   padding: 15px 30px;
   margin: 40px 0px;
   border-radius: 25px;
@@ -35,11 +36,16 @@ h2 {
 
 .portrait img {
   width: 100%;
-  border: 8px solid #FAF3BC; 
+  border: 8px solid #093B5C; 
 }
 
 .btn:hover {
-  background-color: #4CC4A7;
+  color: #000;
+  background-color: #C7AC5F;
+}
+
+a:hover{
+  color: #C7AC5F;
 }
 
 ul.nav {
@@ -54,7 +60,11 @@ ul.nav li {
 }
 
 ul.nav li a {
-  color: #FAF3BC;
+  color: #C7A238;
+}
+
+ul.nav li a:hover{
+  color: #C7AC5F
 }
 
 #intro {
@@ -62,18 +72,18 @@ ul.nav li a {
 }
 
 #loves img {
-  border: 8px solid #FAF3BC;
+  border: 8px solid #093B5C;
   margin: 0 0 20px 0;
   width: 95%;
 }
 
 #quirk img {
-  border: 8px solid #FAF3BC;
+  border: 8px solid #093B5C;
   width: 95%;
 }
 
 #copyright {
-  border-top: 8px solid #2A0400;
+  border-top: 8px solid #2D1949;
   padding: 10px 0px;
   margin: 15px 0px;
   text-align: center;
