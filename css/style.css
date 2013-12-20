@@ -49,6 +49,10 @@ a:hover{
   color: #2D4D5E;
 }
 
+ul {
+  list-style:none;
+}
+
 ul.nav {
   margin: 80px 0 80px 0;
   list-style: none;

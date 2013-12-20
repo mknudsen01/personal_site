@@ -1,0 +1,52 @@
+#container{
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  border: 3px dotted #DDDDDD;
+  border-radius: 10px;
+}
+
+#logo{
+  border: 1px solid #000000;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 251px;
+  background: #CDCDCD;
+  }
+body{
+  background-color: #AAAAAA;
+  font-family: 'Nunito',sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+table {
+  width: 95%;
+  margin: 0 auto;
+}
+
+tr{
+  width:100%;
+}
+
+td:first-child{
+  width:25%;
+  text-align:left;
+}
+
+td:nth-child(2){
+  width: 50%;
+}
+
+td:last-child{
+  width: 10%;
+  text-align:right;
+  color: #FFFFFF;
+}
+
+.first_column {
+  padding-right: 20px;
+}

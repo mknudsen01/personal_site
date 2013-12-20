@@ -1,0 +1,33 @@
+body{
+  font-family: sans-serif;
+  background-color: #ECECEC;
+}
+ul {
+  list-style-type: none;
+  margin: 50px auto;
+}
+
+ul li {
+  float: left;
+  margin-left: 40px;
+  padding: 5px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover{
+  color: #777777;
+}
+
+li:last-child{
+  background-color: #FF0000;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+li:last-child a{
+  color: #FFFFFF;
+}
