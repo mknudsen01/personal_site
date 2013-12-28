@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>DBC Sleep Form</title>
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+</head>
+<body>
+  <div class="container">
+    <h2>How are you Sleeping?</h2>
+      <div class="sleep_form grid_8">
+        <form action="#" method="POST" name="my_form">
+          <fieldset>
+            <p><label for="name">Name:</label>
+              <input type="name" id="name" value="Boot No.342456" onBlur="if(this.value=='')this.value='Boot No.342456'" onFocus="if(this.value=='Boot No.342456')this.value=''"></p>
+
+            <p><label for="cohort">Cohort:</label>
+              <input type="text" id="cohort" value="Banana Slugs" onBlur="if(this.value=='')this.value='Banana Slugs'" onFocus="if(this.value=='Banana Slugs')this.value=''"></p> 
+
+            <p><label for="sleep-hours">How many hours of sleep are you getting per night?</label></p>
+            <p><input type="radio" name="sleep-hours" value="0-3">0-3 hours</p>
+            <p><input type="radio" name="sleep-hours" value="4-6">4-6 hours</p>
+            <p><input type="radio" name="sleep-hours" value="6-9">7-9 hours</p>
+            <p><input type="radio" name="sleep-hours" value="9+">9+ hours</p>
+            
+            <p><label for="sleep-symptoms">Are you noticing any of the following problems?</label></p>
+            <p><input type="checkbox" name="sleep-symptoms" value="drowsiness">Drowsiness</p>
+            <p><input type="checkbox" name="sleep-symptoms" value="lack-of-concentration">Lack of Concentration</p>
+            <p><input type="checkbox" name="sleep-symptoms" value="depression">Depression</p>
+            <p><input type="checkbox" name="sleep-symptoms" value="weight-gain">Weight Gain</p>
+            <p><label for="sleep-symptoms">Any other problems?</label></p>
+            <p><textarea id="other-sleep" type="textarea" name="sleep-symptoms" value=""></textarea></p>
+
+            <p><label for="food">Tell us about your typical diet.</label></p>
+            <p><textarea id="diet" type="textarea" name="food" value=""></textarea></p>
+            
+            <p><input type="submit" value="Submit"></p>
+          </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
