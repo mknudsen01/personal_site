@@ -1,0 +1,14 @@
+body{
+  background-color: #CDCDCD;
+}
+
+#ryu{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.demo-hadouken {
+    vertical-align: top;
+    margin-top: 140px; 
+    margin-left: -120px;
+}
