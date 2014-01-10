@@ -1,0 +1,104 @@
+body{
+  background: #9c1e0f url('img/background.jpg') repeat-x;
+  font-family: "Indie Flower", "Nunito", sans-serif;
+}
+
+.logo{
+  border: 5px solid #27130d;
+  background-color: #EFEFEF;
+  display: block;
+  margin: 40px 35% 0 35%;
+  padding: 1%;
+}
+
+.logo img{
+  width: 90%;
+  max-width: 251px;
+  display: block;
+  margin: 0 auto;
+}
+
+.pizzas, .desserts{
+  display: block;
+  margin-top: 8%;
+}
+
+.pizzas, .desserts, .drinks{
+  background-color: #EFEFEF;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+  margin: 5% 0 2% 0;
+}
+
+h4{
+  margin: 0 5%;
+}
+
+.pizzas h4{
+  text-align: center;
+}
+
+h4:last-child{ /*for desserts*/
+  padding-bottom: 5%;
+}
+
+p{
+  margin: 0 8% 4% 8%; 
+  font-size: .8em;
+  font-style: italic;
+  text-align: center;
+}
+
+.desserts p{
+  display: none;
+}
+
+p:last-child{
+  padding-bottom: 5%;
+}
+
+.price{
+  float: right;
+}
+
+.pizza-prices{
+  margin-bottom: 5%;
+}
+
+.left{
+  float:left;
+}
+.right{
+  float: right;
+}
+
+hr{
+  width: 90%;
+}
+
+/*Media Query @ 850 px */
+@media screen and (max-width: 850px){
+  .grid_1,
+  .grid_2,
+  .grid_3,
+  .grid_4,
+  .grid_5,
+  .grid_6,
+  .grid_7,
+  .grid_8,
+  .grid_9,
+  .grid_10,
+  .grid_11,
+  .grid_12 {
+    width: 100%;
+  }
+
+  .logo{
+    width: 40%;
+    margin: 40px 30% 0 30%;
+    display: block;
+  }
+}
