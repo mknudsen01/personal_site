@@ -1,0 +1,45 @@
+body{
+ background-color: #EFEFEF;
+ font-family: "Open Sans", sans-serif;
+ color: #121212;
+}
+
+p{
+  display: inline-block;
+  width: 62%;
+  height:1.2em;
+  line-height: 1.4em;
+  margin-bottom: 3%;
+}
+
+p:last-child{
+  padding-bottom: 3%;
+}
+
+.shortcut{
+  width: 30%;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.description{
+  vertical-align: top;
+  position: relative;
+  top: 8px;
+}
+
+.block{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width:80%;
+  margin-left: 5%;
+}
+
+h2{
+  padding-left: 5%;
+  color: white;
+  background-color: #084A9E;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+}

@@ -9,8 +9,9 @@ ul {
 
 ul li {
   float: left;
-  margin-left: 40px;
+  margin-left: 10px;
   padding: 5px;
+  width: 10%;
 }
 
 ul li a{
